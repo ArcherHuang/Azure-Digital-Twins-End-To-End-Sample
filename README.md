@@ -343,20 +343,22 @@ The DTDL model is defined as following 2 sections:
   ```
   ssh Account@Azure-Ubuntu-VM-IP
   ```
-  ![](./Images/0-1.png)
 
 * Download the zip file of the source code
-  ![](./Images/0-2.png)
+  ```
+  git clone https://github.com/ArcherHuang/Azure-Digital-Twins-End-To-End-Sample.git
+  ```
+  ![](./Images/0-1.png)
 
 * Insatll Docker Engine
   ```
-  cd ./Azure-Digital-Twins-End-To-End-Sample-main/Script
+  cd ./Azure-Digital-Twins-End-To-End-Sample/Script
 
   chmod 777 install-docker.sh
 
   sudo ./install-docker.sh
   ```
-  ![](./Images/0-3.png)
+  ![](./Images/0-2.png)
 
 * Install Buildx
   ```
