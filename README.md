@@ -357,13 +357,13 @@ The DTDL model is defined as following 2 sections:
     ```
     ![](./Images/0-2.png)
 
-  * 
+  * Change file permissions
     ```
     chmod 777 install-docker.sh
     ```
     ![](./Images/0-3.png)
 
-  * 
+  * Install Docker
     ```
     sudo ./install-docker.sh
     ```
