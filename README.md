@@ -335,7 +335,127 @@ The DTDL model is defined as following 2 sections:
 | Image | 20230220-011029.png | adt3dstorageaccount/adt/Image |
 
 ## The file structure in the Github repository
-* **待補資訊**
+<!-- tree -v --charset utf-8 -->
+├── 3D-Scenes
+│   └── semi-v1.glb
+├── AzureContainerApp
+│   ├── Blob_Trigger
+│   │   ├── config
+│   │   │   └── config.json
+│   │   ├── docker-manifests
+│   │   │   └── Dockerfile
+│   │   ├── index.js
+│   │   ├── migrations
+│   │   │   └── 20230219235350-create-log.js
+│   │   ├── models
+│   │   │   ├── index.js
+│   │   │   └── log.js
+│   │   ├── package-lock.json
+│   │   ├── package.json
+│   │   └── tokenService.js
+│   ├── DB_Ops
+│   │   ├── config
+│   │   │   └── config.json
+│   │   ├── docker-manifests
+│   │   │   └── Dockerfile
+│   │   ├── index.js
+│   │   ├── migrations
+│   │   │   ├── 20230219235350-create-log.js
+│   │   │   ├── 20230220012714-create-report.js
+│   │   │   └── 20230309235001-create-status.js
+│   │   ├── models
+│   │   │   ├── index.js
+│   │   │   ├── log.js
+│   │   │   ├── report.js
+│   │   │   └── status.js
+│   │   ├── package-lock.json
+│   │   └── package.json
+│   ├── IoTHub_To_ADT_Notify
+│   │   ├── adtService.js
+│   │   ├── config
+│   │   │   └── config.json
+│   │   ├── docker-manifests
+│   │   │   └── Dockerfile
+│   │   ├── index.js
+│   │   ├── migrations
+│   │   │   ├── 20230220012714-create-report.js
+│   │   │   └── 20230309234114-create-status.js
+│   │   ├── models
+│   │   │   ├── index.js
+│   │   │   ├── report.js
+│   │   │   └── status.js
+│   │   ├── package-lock.json
+│   │   └── package.json
+│   └── Query_ADT
+│       ├── adtService.js
+│       ├── docker-manifests
+│       │   └── Dockerfile
+│       ├── index.js
+│       ├── package-lock.json
+│       └── package.json
+├── AzureML
+│   ├── pipeline-python
+│   │   └── go.py
+│   └── run_pipeline.ipynb
+├── DM
+│   └── FilmChek_AS300.png
+├── DTDL
+│   ├── 3D-FilmCheck-v1.json
+│   └── Lab.json
+├── Edge
+│   ├── Datas
+│   │   ├── L20230218-Error.log
+│   │   ├── L20230218-Idle.log
+│   │   ├── L20230218-Shutdown.log
+│   │   ├── L20230218-inOperation.log
+│   │   └── L20230218.log
+│   ├── Excel
+│   │   └── 20230313-140020.xlsx
+│   ├── Log
+│   │   ├── L20230315.log
+│   │   ├── L20230316.log
+│   │   ├── L20230317.log
+│   │   └── L20230320.log
+│   ├── Report
+│   │   └── 20230313-140020.csv
+│   ├── edge.py
+│   ├── publisher-test
+│   │   ├── pubLog.py
+│   │   └── pubReport.py
+│   └── requirements.txt
+├── Frontend
+│   ├── README.md
+│   ├── babel.config.js
+│   ├── jsconfig.json
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   ├── assets
+│   │   │   ├── semi-v1-ori.glb
+│   │   │   └── semi-v1.glb
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   └── itri-64.ico
+│   ├── src
+│   │   ├── App.vue
+│   │   ├── assets
+│   │   │   └── logo.png
+│   │   ├── components
+│   │   │   ├── InfoModal.vue
+│   │   │   └── SpinnerModal.vue
+│   │   ├── main.js
+│   │   ├── router
+│   │   │   └── index.js
+│   │   ├── scenes
+│   │   │   └── Scene.js
+│   │   ├── store
+│   │   │   └── index.js
+│   │   └── views
+│   │       └── IndoorView.vue
+│   └── vue.config.js
+├── README.md
+└── Script
+    └── install-docker.sh
 
 ## Step-by-step Guide
 ### 0. If the prerequisite for the environment is to use Azure Ubuntu VM
