@@ -1588,8 +1588,6 @@ python3 edge.py
 ![](./Images/check-3d-scenes-studio.png)
 
 ### 14. Confirming the results from the Frontend
-* https://zealous-tree-035510510.2.azurestaticapps.net/#/
-
 * Machine idle
 ![](./Images/ui1.png)
 

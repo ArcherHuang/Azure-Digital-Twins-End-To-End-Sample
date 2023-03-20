@@ -23,7 +23,7 @@
 2016/11/21	00:15:01.364	act:	InitChrLib
 2016/11/21	00:15:01.418	act:	DLL CHR V3.6.2.921
 2016/11/21	00:15:01.420	act:	Open Sensor (please wait)
-2016/11/21	00:15:01.431	act:	Error : OpenSensor() : Sensor usb device list failed or no sensor present : 0x1
+2016/03/21	00:15:01.431	act:	Idle : 
 2016/11/21	00:15:01.432	act:	CSTILDevice::Connect End
 2016/11/21	00:15:09.396	act:	CN: Class_FilmCheckExecutor, MN: ClearAction
 2016/11/21	00:15:09.398	act:	CN: Class_FilmCheckExecutor, MN: StoreAction

@@ -90,6 +90,8 @@ def on_message_TOPIC2(client, userdata, msg):
     device_client.send_message(json.dumps(jsonToAzure))
 
     # 2-2
+    if not os.path.exists("./Report"):
+        os.mkdir("./Report")
     with open(f"./Report/{json.loads(msg.payload)['fileName']}.csv", "a") as csv:
         for idx, info in enumerate(json.loads(msg.payload)['report']):
             csvString = f"{info[0]},{info[1]},{info[2]},{info[3]},{info[4]},{info[5]},{info[6]},{info[7]}"
