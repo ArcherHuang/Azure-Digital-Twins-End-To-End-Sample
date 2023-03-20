@@ -336,6 +336,7 @@ The DTDL model is defined as following 2 sections:
 
 ## The file structure in the Github repository
 <!-- tree -v --charset utf-8 -->
+```
 ├── 3D-Scenes
 │   └── semi-v1.glb
 ├── AzureContainerApp
@@ -456,6 +457,7 @@ The DTDL model is defined as following 2 sections:
 ├── README.md
 └── Script
     └── install-docker.sh
+```
 
 ## Step-by-step Guide
 ### 0. If the prerequisite for the environment is to use Azure Ubuntu VM
