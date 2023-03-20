@@ -1866,6 +1866,18 @@ python3 edge.py
       ![](./Images/16-11.png)
       ![](./Images/16-12.png)
       ![](./Images/16-13.png)
+  * 上傳檔案到所建立的 Blob 以確認 Pipeline 是否有觸發 **(正式文件須移除)**
+    * 上傳 csv 檔案
+      * 搜尋 `Storage accounts` > `adt3dstorageaccount` > `Containers` > `adt` > `Report` 資料夾中
+    * 確認 Azure Machine Learning Pipeline
+      * Pipeline 執行中
+        ![](./Images/ml47.png)
+      * Pipeline 執行完成
+        ![](./Images/ml48.png)
+    * 到所建立的 Blob 裡確認 `Image` 資料夾中已新增剛才 Pipeline 所新增的結果檔案
+      * 搜尋 `Storage accounts` > `adt3dstorageaccount` > `Containers` > `adt` > `Image`
+      ![](./Images/ml50.png)
+      ![](./Images/ml49.png)
 
 ### Reference
 * https://learn.microsoft.com/en-us/azure/digital-twins/quickstart-3d-scenes-studio
