@@ -115,7 +115,7 @@ measure the parameters of film thickness, (n, k) value, and TSV (through silicon
 | Application |   Development Environment - Hardware / OS  |       Language      |
 |:-----------:|:------------------------------------------:|:-------------------:|
 |     Edge    |          NVIDIA Jetson AGX Xavier          |      Python 3.6     |
-|    Cloud    | MacBook Pro M1 Max (macOS: Ventura 13.0.1) <br> Can also use Azure 20.04 Ubuntu VM| Node v18.13.0 (LTS) |
+|    Cloud    | MacBook Pro M1 Max (macOS: Ventura 13.0.1) <br> You can also use an Azure Ubuntu VM to perform the following operations.| Node v18.13.0 (LTS) |
 
 ## Prerequisites
 * [Sign in to the Azure portal](https://portal.azure.com/)
