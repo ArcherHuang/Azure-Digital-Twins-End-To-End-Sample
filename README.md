@@ -939,7 +939,7 @@ az ad user list
     ![](./Images/8-2.png)
 
 * Get the local IP address.
-  * Commands for macOS and Ubuntu environment
+  * Commands for Local environment
       ```
       export LOCAL_IP=`curl ifconfig.me`
 
@@ -1073,20 +1073,23 @@ az extension add --name containerapp --upgrade
     ![](./Images/9-2.png)
 
 * Log in to the Azure Container Registry
-  * Commands for macOS and Ubuntu environment
+  * Commands for macOS environment
     ```
     az acr login --name $ACR_NAME
+    ```
 
-    --- Ubuntu
+    ![](./Images/9-3.png)
+
+  * Commands for Ubuntu environment
+    ```
     az acr credential show --name containerforacr.azurecr.io --query passwords[0].value --output tsv
 
-    sudo az acr login
+    sudo az acr login --name $ACR_NAME
 
     Username: containerforacr
     Password: 
     ```
-
-    ![](./Images/9-3.png)
+    ![](./Images/9-19.png)
 
 * Switch working directory (IoT Hub To ADT)
 ```
