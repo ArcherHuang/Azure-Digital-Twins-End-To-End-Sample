@@ -399,7 +399,6 @@ The DTDL model is defined as following 2 sections:
   ```
   az login
   ```
-  ![](./Images/0-7.png)
 
 * Get subscription ID
   ```
@@ -411,7 +410,6 @@ The DTDL model is defined as following 2 sections:
   ```
   az account set --subscription "SUBSCRIPTION-ID"
   ```
-  ![](./Images/0-6.png)
 
 * Install Node.js
   ```
