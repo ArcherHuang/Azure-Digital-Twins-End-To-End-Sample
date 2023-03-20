@@ -1087,7 +1087,7 @@ az extension add --name containerapp --upgrade
     sudo az acr login --name $ACR_NAME
 
     Username: containerforacr
-    Password: 
+    Password: Please enter the result obtained from the command 'az acr credential show'
     ```
     ![](./Images/9-19.png)
 
