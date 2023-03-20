@@ -1743,7 +1743,7 @@ python3 edge.py
     * TRIGGER_ML_ENDPOINT
       * Commands for macOS and Ubuntu environment
         ```
-        export TRIGGER_ML_ENDPOINT='上步驟所取得的 URL'
+        export TRIGGER_ML_ENDPOINT='the REST endpoint URL obtained earlier'
         echo $TRIGGER_ML_ENDPOINT
         ```
 
