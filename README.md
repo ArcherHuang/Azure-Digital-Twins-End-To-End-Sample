@@ -1116,8 +1116,6 @@ cd ../IoTHub_To_ADT_Notify
 * Create a Docker Image (IoT Hub To ADT)
   * Commands for macOS and Ubuntu environment
     ```
-    sudo docker buildx build . --platform linux/amd64,linux/arm64 --push -t $ACR_NAME.azurecr.io/hub-to-adt-notify:0.1 -f docker-manifests/Dockerfile
-
     sudo docker buildx build . --platform linux/amd64 --push -t $ACR_NAME.azurecr.io/hub-to-adt-notify:0.1 -f docker-manifests/Dockerfile
     ```
 
@@ -1255,9 +1253,6 @@ cd ../Query_ADT
 * Create the Query ADT Docker Image (Query ADT)
   * Commands for macOS and Ubuntu environment
     ```
-    sudo docker buildx build . --platform linux/amd64,linux/arm64 --push -t $ACR_NAME.azurecr.io/query-adt:0.2 -f docker-manifests/Dockerfile
-
-    --- Ubuntu
     sudo docker buildx build . --platform linux/amd64 --push -t $ACR_NAME.azurecr.io/query-adt:0.2 -f docker-manifests/Dockerfile
     ```
 
@@ -1359,9 +1354,6 @@ cd ../DB_Ops
 * Create the Query ADT Docker Image (DB Ops)
   * Commands for macOS and Ubuntu environment
     ```
-    sudo docker buildx build . --platform linux/amd64,linux/arm64 --push -t $ACR_NAME.azurecr.io/db-ops:0.1 -f docker-manifests/Dockerfile
-
-    --- Ubuntu
     sudo docker buildx build . --platform linux/amd64 --push -t $ACR_NAME.azurecr.io/db-ops:0.1 -f docker-manifests/Dockerfile
     ```
 
