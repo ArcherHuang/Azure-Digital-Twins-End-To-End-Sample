@@ -1416,12 +1416,12 @@ cd ../DB_Ops
   * Add `VUE_APP_EVENTHUB_NAME`
     ![](./Images/10-2.png)
     * Enter `VUE_APP_EVENTHUB_NAME` in the Name field.
-    * Enter the string displayed by `echo $ADT_NAME` in the `Secret` field. (Windows: Enter the string displayed by `echo $AdtName` in the `Secret` field.)
+    * Enter the string displayed by `echo $ADT_NAME` in the `Secret` field.
     * After entering the above information, click the `Add secret` button.
   * Add `VUE_APP_CONSUMER_GROUP_NAME`
     ![](./Images/10-3.png)
     * Enter `VUE_APP_CONSUMER_GROUP_NAME` in the Name field.
-    * Enter the string displayed by `echo $IOT_HUB_CONSUMER_GROUP_STATIC_WEB_APP` in the `Secret` field. (Windows: Enter the string displayed by `echo $IotHubConsumerGroupStaticWebApp` in the `Secret` field.)
+    * Enter the string displayed by `echo $IOT_HUB_CONSUMER_GROUP_STATIC_WEB_APP` in the `Secret` field.
     * After entering the above information, click the `Add secret` button.  
 
   * Add `VUE_APP_EVENTHUB_CONNECTION_STRING`
@@ -1449,7 +1449,7 @@ cd ../DB_Ops
 
     ![](./Images/10-6.png)
     * Enter `VUE_APP_API_URL` in the Name field.
-    * Enter the string displayed by `echo $DB_OPS_API_URL` in the `Secret` field. (Windows: Enter the string displayed by `echo $DbOpsApiUrl` in the `Secret` field.)
+    * Enter the string displayed by `echo $DB_OPS_API_URL` in the `Secret` field.
     * After entering the above information, click the `Add secret` button.
 
   * Add `VUE_APP_BLOB_NAME`
@@ -1463,7 +1463,7 @@ cd ../DB_Ops
 
     ![](./Images/10-7.png)
     * Enter `VUE_APP_BLOB_NAME` in the Name field.
-    * Enter the string displayed by `echo $BLOB_NAME` in the `Secret` field. (Windows: Enter the string displayed by `echo $BlobName` in the `Secret` field.)
+    * Enter the string displayed by `echo $BLOB_NAME` in the `Secret` field.
     * After entering the above information, click the `Add secret` button.
 
   * Add `VUE_APP_QUERY_ADT_URL` (ACA - Query ADT)
@@ -1477,7 +1477,7 @@ cd ../DB_Ops
 
     ![](./Images/10-8.png)
     * Enter `VUE_APP_QUERY_ADT_URL` in the Name field.
-    * Enter the string displayed by `echo $QUERY_ADT_URL` in the `Secret` field. (Windows: Enter the string displayed by `echo $QueryAdtUrl` in the `Secret` field.)
+    * Enter the string displayed by `echo $QUERY_ADT_URL` in the `Secret` field.
     * After entering the above information, click the `Add secret` button.
 
 * Enter `Static Web App` in the search box of the `Azure Portal`. > Select the search result for `Static Web Apps`.
