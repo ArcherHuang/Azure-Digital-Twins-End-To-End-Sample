@@ -1402,11 +1402,10 @@ cd ../DB_Ops
     ```
 
 * Test (DB Ops)
-  * https://dbops.victoriousground-728f9a8f.japaneast.azurecontainerapps.io
-  * https://dbops.victoriousground-728f9a8f.japaneast.azurecontainerapps.io/logs
-  * https://dbops.victoriousground-728f9a8f.japaneast.azurecontainerapps.io/reports
-  * https://dbops.victoriousground-728f9a8f.japaneast.azurecontainerapps.io/status/latest
-  * https://dbops.victoriousground-728f9a8f.japaneast.azurecontainerapps.io/reports/latest
+  * https://DB_OPS_API_URL/logs
+  * https://DB_OPS_API_URL/reports
+  * https://DB_OPS_API_URL/status/latest
+  * https://DB_OPS_API_URL/reports/latest
 
 ### 10. Deploying the Frontend to Azure Static Web Apps
 * Deploy files from the `./Azure-Digital-Twins-End-To-End-Sample/Frontend` folder to [GitHub](https://github.com/).
