@@ -1,0 +1,95 @@
+{
+    "@context": [
+      "dtmi:dtdl:context;2"
+    ],
+    "@id": "dtmi:itri:cms:filmcheck;1",
+    "@type": "Interface",
+    "displayName": "FilmCheck Device",
+    "description": "FilmCheck Device",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "statusDate",
+        "displayName": "status date",
+        "description": "status date",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "statusTime",
+        "displayName": "status time",
+        "description": "status time",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "typeError",
+        "displayName": "status type",
+        "description": "status type",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "statusMessage",
+        "displayName": "status message",
+        "description": "status message",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "statisticsDate",
+        "displayName": "statistics date",
+        "description": "statistics date",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "statisticsTime",
+        "displayName": "statistics time",
+        "description": "statistics time",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "statisticsStandardDeviation",
+        "displayName": "statistics standard deviation",
+        "description": "statistics standard deviation",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "statisticsAverage",
+        "displayName": "statistics average",
+        "description": "statistics average",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "statisticsUniformity",
+        "displayName": "statistics uniformity",
+        "description": "statistics uniformity",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "statisticsMax",
+        "displayName": "statistics max",
+        "description": "statistics max",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "statisticsMin",
+        "displayName": "statistics min",
+        "description": "statistics min",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "statisticsMaxMin",
+        "displayName": "statistics max min",
+        "description": "statistics max min",
+        "schema": "double"
+      }
+    ]
+  }
