@@ -351,14 +351,23 @@ The DTDL model is defined as following 2 sections:
   ![](./Images/0-1.png)
 
 * Insatll Docker Engine
-  ```
-  cd ./Azure-Digital-Twins-End-To-End-Sample/Script
+  * Switch the working directory
+    ```
+    cd ./Azure-Digital-Twins-End-To-End-Sample/Script
+    ```
+    ![](./Images/0-2.png)
 
-  chmod 777 install-docker.sh
+  * 
+    ```
+    chmod 777 install-docker.sh
+    ```
+    ![](./Images/0-3.png)
 
-  sudo ./install-docker.sh
-  ```
-  ![](./Images/0-2.png)
+  * 
+    ```
+    sudo ./install-docker.sh
+    ```
+    ![](./Images/0-4.png)
 
 * Install Buildx
   ```
@@ -376,7 +385,6 @@ The DTDL model is defined as following 2 sections:
 
   docker buildx version
   ```
-  ![](./Images/0-3.png)
 
 * Install Azure CLI
   ```
@@ -384,7 +392,7 @@ The DTDL model is defined as following 2 sections:
 
   az --version
   ```
-  ![](./Images/0-4.png)
+  ![](./Images/0-5.png)
 
 * Sign in to Azure via AZ CLI
   ```
