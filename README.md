@@ -1866,16 +1866,16 @@ python3 edge.py
       ![](./Images/16-11.png)
       ![](./Images/16-12.png)
       ![](./Images/16-13.png)
-  * 上傳檔案到所建立的 Blob 以確認 Pipeline 是否有觸發 **(正式文件須移除)**
-    * 上傳 csv 檔案
-      * 搜尋 `Storage accounts` > `adt3dstorageaccount` > `Containers` > `adt` > `Report` 資料夾中
-    * 確認 Azure Machine Learning Pipeline
-      * Pipeline 執行中
+  * Upload csv file through Edge to the created Blob to confirm that the pipeline has been triggered.
+    * The uploaded completed CSV file will be in the `Storage accounts` > `adt3dstorageaccount` > `Containers` > `adt` > `Report`.
+        ![](./Images/ml51.png)
+    * Verify the `Azure Machine Learning Pipeline`.
+      * Pipeline is executing.
         ![](./Images/ml47.png)
-      * Pipeline 執行完成
+      * Pipeline has completed execution.
         ![](./Images/ml48.png)
-    * 到所建立的 Blob 裡確認 `Image` 資料夾中已新增剛才 Pipeline 所新增的結果檔案
-      * 搜尋 `Storage accounts` > `adt3dstorageaccount` > `Containers` > `adt` > `Image`
+    * Verify that the result file added by the pipeline earlier has been added to the `Image` folder in the created Blob.
+      * Search for `Storage accounts` > `adt3dstorageaccount` > `Containers` > `adt` > `Image`
       ![](./Images/ml50.png)
       ![](./Images/ml49.png)
 
