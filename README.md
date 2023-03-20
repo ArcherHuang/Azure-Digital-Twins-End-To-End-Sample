@@ -1797,8 +1797,6 @@ python3 edge.py
   * Create the Blob Trigger Docker Image (Blob Trigger)
     * Commands for macOS and Ubuntu environment
       ```
-      sudo docker buildx build . --platform linux/amd64,linux/arm64 --push -t $ACR_NAME.azurecr.io/blob-trigger:0.1 -f docker-manifests/Dockerfile
-
       sudo docker buildx build . --platform linux/amd64 --push -t $ACR_NAME.azurecr.io/blob-trigger:0.1 -f docker-manifests/Dockerfile
       ```
 
