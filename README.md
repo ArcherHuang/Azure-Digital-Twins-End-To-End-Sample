@@ -385,6 +385,7 @@ The DTDL model is defined as following 2 sections:
 
   docker buildx version
   ```
+  ![](./Images/0-5.png)
 
 * Install Azure CLI
   ```
@@ -392,13 +393,13 @@ The DTDL model is defined as following 2 sections:
 
   az --version
   ```
-  ![](./Images/0-5.png)
+  ![](./Images/0-6.png)
 
 * Sign in to Azure via AZ CLI
   ```
   az login
   ```
-  ![](./Images/0-5.png)
+  ![](./Images/0-7.png)
 
 * Get subscription ID
   ```
