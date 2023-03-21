@@ -411,11 +411,11 @@ The DTDL model is defined as following 2 sections:
 │   │   ├── L20230218-inOperation.log
 │   │   └── L20230218.log
 │   ├── Excel
-│   │   └── 20230313-140020.xlsx
+│   │   └── 20230305-144311.xlsx
 │   ├── Log
 │   │   └── L20230320.log
 │   ├── Report
-│   │   └── 20230313-140020.csv
+│   │   └── 20230305-144311.csv
 │   ├── edge.py
 │   ├── publisher-test
 │   │   ├── pubLog.py
