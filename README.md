@@ -405,22 +405,28 @@ The DTDL model is defined as following 2 sections:
 │   └── Lab.json
 ├── Edge
 │   ├── Datas
-│   │   ├── L20230218-Error.log
-│   │   ├── L20230218-Idle.log
-│   │   ├── L20230218-Shutdown.log
-│   │   ├── L20230218-inOperation.log
-│   │   └── L20230218.log
+│   │   ├── L20230301-Error.log
+│   │   ├── L20230301-Idle.log
+│   │   ├── L20230301-Shutdown.log
+│   │   ├── L20230301-inOperation.log
+│   │   └── L20230301.log
 │   ├── Excel
 │   │   └── 20230305-144311.xlsx
 │   ├── Log
-│   │   └── L20230320.log
 │   ├── Report
-│   │   └── 20230305-144311.csv
+│   │   └── 20230313-140020.csv
 │   ├── edge.py
 │   ├── publisher-test
 │   │   ├── pubLog.py
 │   │   └── pubReport.py
-│   └── requirements.txt
+│   ├── requirements.txt
+│   └── uploadFileToBlob
+│       ├── Log
+│       │   └── L20230301.log
+│       ├── Report
+│       │   └── 20230313-140020.csv
+│       ├── app.py
+│       └── requirements.txt
 ├── Frontend
 │   ├── README.md
 │   ├── babel.config.js
