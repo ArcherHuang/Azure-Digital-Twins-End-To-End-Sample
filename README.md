@@ -432,7 +432,6 @@ The DTDL model is defined as following 2 sections:
 │   ├── package.json
 │   ├── public
 │   │   ├── assets
-│   │   │   ├── semi-v1-ori.glb
 │   │   │   └── semi-v1.glb
 │   │   ├── favicon.ico
 │   │   ├── index.html
