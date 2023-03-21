@@ -413,9 +413,6 @@ The DTDL model is defined as following 2 sections:
 │   ├── Excel
 │   │   └── 20230313-140020.xlsx
 │   ├── Log
-│   │   ├── L20230315.log
-│   │   ├── L20230316.log
-│   │   ├── L20230317.log
 │   │   └── L20230320.log
 │   ├── Report
 │   │   └── 20230313-140020.csv
