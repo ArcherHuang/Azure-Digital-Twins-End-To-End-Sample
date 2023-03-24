@@ -82,7 +82,7 @@ loss, accuracy = model.evaluate(test_features, test_labels)
 print("Test accuracy:", accuracy)
 run.log('Test accuracy', accuracy)
 
-# 儲存模型 ( 只能將模型存在 outputs 這個資料夾之下，後續才能註冊模型 0
+# 儲存模型 ( 只能將模型存在 outputs 這個資料夾之下，後續才能註冊模型 )
 model.save("outputs/iris_model.h5")
 run.upload_file("outputs/iris_model.h5", path_or_stream='outputs/iris_model.h5')
 print("Saved Model")
