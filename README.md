@@ -47,7 +47,7 @@
   - [13. Confirming the results from Azure Digital Twins 3D Scenes Studio](#13-confirming-the-results-from-azure-digital-twins-3d-scenes-studio)
   - [14. Confirming the results from the frontend](#14-confirming-the-results-from-the-frontend)
   - [15. Confirming the results from the Microsoft HoloLens](#15-confirming-the-results-from-the-microsoft-hololens)
-  - [16. Machine Learning](#16-machine-learning)
+  - [16. Analysis and Learning of Film Thickness Data](#16-analysis-and-learning-of-film-thickness-data)
 - [Reference](#reference)
 - [Contributor](#contributors)
 - [License](#license)
@@ -1727,7 +1727,7 @@ python3 edge.py
 ### 15. Confirming the results from the Microsoft HoloLens
 ![](./Images/15-1.jpg)
 
-### 16. Machine Learning
+### 16. Analysis and Learning of Film Thickness Data
 * Enter `Azure Machine Learning` in the search box above and click on `Azure Machine Learning` in the search results.
 ![](./Images/ml1.png)
 
