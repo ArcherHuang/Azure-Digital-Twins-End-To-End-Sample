@@ -1809,14 +1809,15 @@ python3 edge.py
   * Execute the `連接已有的 Blob` code block.
     * Modify lines 3, 4, and 5.
       ![](./Images/16-0.png)
-      * Replace the right-hand side of the equal sign in `line 3` with the created blob container.
+
+      * Replace the right-hand side of the equal sign in `line 3` with the obtained `Storage account name`.
+        ![](./Images/16-2.png)
+
+      * Replace the right side of the equal sign in `line 4` with the obtained `Key`.
+        ![](./Images/16-2.png)
+
+      * Replace the right-hand side of the equal sign in `line 5` with the created blob container.
         ![](./Images/16-1.png)
-
-      * Replace the right-hand side of the equal sign in `line 4` with the obtained `Storage account name`.
-        ![](./Images/16-2.png)
-
-      * Replace the right side of the equal sign in `line 5` with the obtained `Key`.
-        ![](./Images/16-2.png)
 
     * Click on the left side `▷` symbol.
       ![](./Images/ml27.png)
@@ -1998,8 +1999,17 @@ python3 edge.py
         ![](./Images/ml47.png)
       * Pipeline has completed execution.
         ![](./Images/ml48.png)
-    * Verify that the result file added by the pipeline earlier has been added to the `Image` folder in the created Blob.
-      * Search for `Storage accounts` > `adt3dstorageaccount` > `Containers` > `adt` > `Image`
+  * Check Metrics and Image
+    * Click on the `Job overview` button located on the top right corner.
+      ![](./Images/ml52.png)
+    * Click on `Metrics`
+      ![](./Images/ml53.png)
+    * Metrics Result
+      ![](./Images/ml54.png)
+    * Click on `Images`
+      ![](./Images/ml55.png)
+  * Verify that the result file added by the pipeline earlier has been added to the `Image` folder in the created Blob.
+    * Search for `Storage accounts` > `adt3dstorageaccount` > `Containers` > `adt` > `Image`
       ![](./Images/ml50.png)
       ![](./Images/ml49.png)
 
