@@ -63,7 +63,7 @@ This project contains a sample for working with Azure Digital Twins：
   * Retrieve the corresponding properties from Azure Digital Twins and display them in Azure 3D Scenes Studio.
   * Use Microsoft HoloLens to understand the current status and measurement results of the Semiconductor Film Thickness Measurement System (FilmCheck AS300) through the dashboard deployed in Azure Static Web App.
   * When an error occurs in the Semiconductor Film Thickness Measurement System (FilmCheck AS300), send an alert message to the administrator group in real-time via Microsoft Teams.
-  * Upload the logs and reports received from the Semiconductor Film Thickness Measurement System (FilmCheck AS300) on Edge to Azure Blob. When Azure Blob receives the upload event of the report, trigger the Azure Machine Learning pipeline to perform data analysis and generate results, then upload them to Azure Blob.
+  * Upload the logs and reports received from the Semiconductor Film Thickness Measurement System (FilmCheck AS300) on Edge to Azure Blob. When Azure Blob receives the upload event of the report, trigger the Azure Machine Learning pipeline to perform data analysis and generate results, then upload them to Azure Blob and Job Metrics/Images.
   * Keyword：
     * Azure IoT Hub, Docker, Azure Container Registry, Azure Container Apps, Azure Digital Twins, Digital Twins Definition Language (DTDL), Azure 3D Scenes Studio, Azure Digital Twins Explorer, Azure App Service, Microsoft HoloLens, Creating a 3D model of a physical object, Babylon.js, Azure Machine Learning, Azure Static Web App, Vue, Azure storage account, Azure Database for PostgreSQL, GitHub, Azure Active Directory and Microsoft Teams.
 
