@@ -1706,7 +1706,6 @@ python3 edge.py
 ### 12. Launch the program for FilmCheck AS300
 * FilmCheck AS300 operation screen
 ![](./Images/AS300-1.PNG)
-![](./Images/AS300-2.PNG)
 
 ### 13. Confirming the results from Azure Digital Twins 3D Scenes Studio
 ![](./Images/check-3d-scenes-studio.png)
